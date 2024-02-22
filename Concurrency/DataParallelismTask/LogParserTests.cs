@@ -8,7 +8,7 @@ namespace LogParsing
     {
         public void DoTests()
         {
-            var file = new FileInfo("Files/bigLog.log");
+            var file = new FileInfo("../../../DataParallelismTask/Files/bigLog.log");
 
             var sequential = RunParser(new SequentialLogParser(file, TryGetIdFromLine));
             var parallel = RunParser(new ParallelLogParser(file, TryGetIdFromLine));
