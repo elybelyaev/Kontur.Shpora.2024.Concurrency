@@ -1,7 +1,7 @@
 ﻿
 using Concurrency;
+using LogParsing;
 
 
-BankLockDemo.BankDemo();
-
-// BankInterlockedDemo.BankDemo();
+var logParserTests = new LogParserTests();
+logParserTests.DoTests();
