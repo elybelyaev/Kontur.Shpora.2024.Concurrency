@@ -6,4 +6,9 @@ public static class TaskDemo
     {
             
     }
+    
+    public static Task MyWhenAll(params Task[] task)
+    {
+        throw new NotImplementedException();
+    }
 }
